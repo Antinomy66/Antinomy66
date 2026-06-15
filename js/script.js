@@ -1,4 +1,4 @@
-const text = "Computer Science Student | Algorithm Learner | AI Enthusiast";
+const text = " 数据科学 | 可视化 | 编程苦手 ";
 
 let i = 0;
 
