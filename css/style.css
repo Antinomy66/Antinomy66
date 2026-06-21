@@ -39,10 +39,10 @@ section h2::after{content:"";display:block;width:50px;height:3px;background:#00b
 #contact a{color:#00bfff;text-decoration:none;transition:color .3s}
 #contact a:hover{color:#66d9ff}
 footer{text-align:center;padding:40px;background:#181818;color:#666;font-size:14px}
-[data-tip]{position:relative;cursor:pointer}
-[data-tip]::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%) translateY(4px);background:#2a2a2a;color:#e0e0e0;padding:6px 14px;border-radius:8px;font-size:13px;white-space:nowrap;pointer-events:none;opacity:0;transition:all .25s;border:1px solid #444;box-shadow:0 4px 12px rgba(0,0,0,0.4);z-index:200}
-[data-tip]:hover::after{opacity:1;transform:translateX(-50%) translateY(0)}
-nav [data-tip]::after{bottom:auto;top:calc(100% + 10px)}
+
+
+
+
 /* note system */
 .page-header{padding:100px 15% 40px;text-align:center}
 .page-header h1{font-size:42px;margin-bottom:12px}
